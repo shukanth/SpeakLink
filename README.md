@@ -1,76 +1,138 @@
-# Parent Engagement App Frontend
+<div id="top">
 
-A modern, multilingual web application designed to help non-English-speaking parents engage with schools and understand their children's academic progress.
+<!-- HEADER STYLE: CLASSIC -->
+<div align="center">
 
-## Features
 
-- **Document Management**: Upload and analyze academic documents with AI-powered insights
-- **Multilingual Chat**: Chat with AI about your child's progress in your preferred language
-- **Parent-Teacher Conferences**: Record and get real-time translations of parent-teacher meetings
-- **Modern UI**: Sleek, responsive design with Palantir-inspired aesthetics
+# SPEAKLINK
 
-## Tech Stack
+<em>Empowering communication through seamless multilingual interactions.</em>
 
-- React 18
-- TypeScript
-- Material-UI (MUI)
-- i18next for internationalization
-- React Router for navigation
-- Web Vitals for performance monitoring
+<!-- BADGES -->
+<img src="https://img.shields.io/github/last-commit/shukanth/SpeakLink?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/shukanth/SpeakLink?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/shukanth/SpeakLink?style=flat&color=0080ff" alt="repo-language-count">
+
+<em>Built with the tools and technologies:</em>
+
+<img src="https://img.shields.io/badge/Flask-000000.svg?style=flat&logo=Flask&logoColor=white" alt="Flask">
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+<img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+<img src="https://img.shields.io/badge/i18next-26A69A.svg?style=flat&logo=i18next&logoColor=white" alt="i18next">
+<img src="https://img.shields.io/badge/FastAPI-009688.svg?style=flat&logo=FastAPI&logoColor=white" alt="FastAPI">
+<img src="https://img.shields.io/badge/LangChain-1C3C3C.svg?style=flat&logo=LangChain&logoColor=white" alt="LangChain">
+<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
+<br>
+<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
+<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/OpenAI-412991.svg?style=flat&logo=OpenAI&logoColor=white" alt="OpenAI">
+<img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&logo=Axios&logoColor=white" alt="Axios">
+<img src="https://img.shields.io/badge/CSS-663399.svg?style=flat&logo=CSS&logoColor=white" alt="CSS">
+
+
+</div>
+<br>
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Testing](#testing)
+
+---
+
+## Overview
+
+SpeakLink is a powerful developer tool designed to enhance web applications with advanced speech recognition, document management, and multilingual capabilities.
+
+**Why SpeakLink?**
+
+This project aims to streamline user interactions and improve accessibility in web applications. The core features include:
+
+- 🎤 **Real-time Speech Recognition and Translation:** Enhances user interaction and accessibility for multilingual applications.
+- 📄 **Document Management:** Efficiently handles user-uploaded documents, simplifying storage and retrieval.
+- 🎙️ **Conference Handling:** Streamlines management of conference sessions, including audio recording and transcript generation.
+- 🔍 **Intelligent Querying with RAGService:** Provides context-aware responses and insights from academic documents.
+- 🌍 **Internationalization Support:** Ensures accessibility for diverse users by supporting multiple languages.
+
+---
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
+This project requires the following dependencies:
+
+- **Programming Language:** TypeScript
+- **Package Manager:** Pip, Npm
 
 ### Installation
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+Build SpeakLink from the source and intsall dependencies:
 
-3. Start the development server:
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
+1. **Clone the repository:**
 
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    ```sh
+    ❯ git clone https://github.com/shukanth/SpeakLink
+    ```
 
-## Available Scripts
+2. **Navigate to the project directory:**
 
-- `npm start` or `yarn start`: Runs the app in development mode
-- `npm test` or `yarn test`: Launches the test runner
-- `npm run build` or `yarn build`: Builds the app for production
-- `npm run eject` or `yarn eject`: Ejects from Create React App
+    ```sh
+    ❯ cd SpeakLink
+    ```
 
-## Project Structure
+3. **Install the dependencies:**
 
+**Using [pip](https://pypi.org/project/pip/):**
+
+```sh
+❯ pip install -r requirements.txt, backend/requirements.txt
 ```
-src/
-  ├── components/     # Reusable UI components
-  ├── pages/         # Page components
-  ├── i18n/          # Internationalization files
-  ├── theme.ts       # MUI theme configuration
-  ├── App.tsx        # Main application component
-  └── index.tsx      # Application entry point
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+❯ npm install
 ```
 
-## Contributing
+### Usage
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Run the project with:
 
-## License
+**Using [pip](https://pypi.org/project/pip/):**
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+```sh
+python {entrypoint}
+```
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+npm start
+```
+
+### Testing
+
+Speaklink uses the {__test_framework__} test framework. Run the test suite with:
+
+**Using [pip](https://pypi.org/project/pip/):**
+
+```sh
+pytest
+```
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+npm test
+```
+
+---
+
+<div align="left"><a href="#top">⬆ Return</a></div>
+
+---
