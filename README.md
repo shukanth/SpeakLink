@@ -6,7 +6,7 @@
 
 # SPEAKLINK
 
-<em>Empowering communication through seamless multilingual interactions.</em>
+<em>Empowering immigrant parents through seamless multilingual support for academic communication.</em>
 
 <!-- BADGES -->
 <img src="https://img.shields.io/github/last-commit/shukanth/SpeakLink?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
@@ -39,6 +39,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Contributors](#contributors)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -49,17 +50,30 @@
 
 ## Overview
 
-SpeakLink is a powerful developer tool designed to enhance web applications with advanced speech recognition, document management, and multilingual capabilities.
+SpeakLink is a community-focused platform designed to help **immigrant parents** who struggle with understanding academic information or navigating parent-teacher interactions due to language barriers.
 
 **Why SpeakLink?**
 
 This project aims to streamline user interactions and improve accessibility in web applications. The core features include:
 
-- 🎤 **Real-time Speech Recognition and Translation:** Enhances user interaction and accessibility for multilingual applications.
-- 📄 **Document Management:** Efficiently handles user-uploaded documents, simplifying storage and retrieval.
+- 🎙️ **Record & Analyze Parent-Teacher Conferences:** Record audio from meetings and get translations and summaries, making it easier to follow up on key discussions.
+- 📄 **Upload Academic Documents:** Instantly extract and understand important details from report cards, IEPs, and syllabi—ask questions in your language and get clear, personalized answers.
 - 🎙️ **Conference Handling:** Streamlines management of conference sessions, including audio recording and transcript generation.
 - 🔍 **Intelligent Querying with RAGService:** Provides context-aware responses and insights from academic documents.
-- 🌍 **Internationalization Support:** Ensures accessibility for diverse users by supporting multiple languages.
+- 🌍 **Designed for Multilingual Families:** Ensures accessibility for diverse users by supporting multiple languages.
+
+---
+---
+
+## Contributors
+
+Meet the team behind SpeakLink:
+
+- **Shukanth Jojodae**
+- **Sharva Deodhar**
+- **Siddarth Tummala**
+
+We collaborated on ideation, design, and development to create a seamless multilingual academic planning experience for immigrant parents, helping them bridge communication gaps in parent-teacher interactions.
 
 ---
 
